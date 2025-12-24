@@ -5,7 +5,10 @@
 
 ```
 ```math
- \textbf{transform}(p_{0}, p_{1}, p_{2}, p_{3}, u, v)= \textbf{lerp}(\textbf{lerp}(p_{0}, p_{1}, u), \textbf{lerp}(p_{2}, p_{3}, u), v) \newline
+\begin{array}{cl}
+ \textbf{transform}(p_{0}, p_{1}, p_{2}, p_{3}, u, v)= \textbf{lerp}(\textbf{lerp}(p_{0}, p_{1}, u), \textbf{lerp}(p_{2}, p_{3}, u), v) \\
+(u, v) = \textbf{inverse}(p_{0}, p_{1}, p_{2}, p_{3}, p_{x}, p_{y})= \textbf{transform}(p_{0}, p_{1}, p_{2}, p_{3}, u, v)^{-1}
+\end{array}
 ```
 
 

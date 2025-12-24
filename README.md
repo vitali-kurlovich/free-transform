@@ -21,6 +21,10 @@ v = \frac{\sqrt{(p_{x} (-y_{0}+y_{1}-y_{2}+y_{3})+p_{y} (x_{0}-x_{1}+x_{2}-x_{3}
 ```
 
 ```math
+\Downarrow 
+```
+
+```math
 \begin{array}{cl}
 dx_{01} = x_{0}- x_{1},\ dy_{01} = y_{0}- y_{1}\\
 dx_{02} = x_{0}- x_{2},\ dy_{02} = y_{0}- y_{2}\\
@@ -33,6 +37,10 @@ dx_{23} = x_{2}- x_{3},\ dy_{23} = y_{2}- y_{3}\\
 ```
 
 ```math
+\Downarrow 
+```
+
+```math
 
 u = -\frac{\sqrt{4 (dx_{23} dy_{01}-dx_{01} dy_{23}) (dx_{03} p_{y}-dy_{03} p_{x}-x_{0} y_{3}+x_{3} y_{0})+(p_{y} (dx_{01}+dx_{23})+p_{x} (-dy_{01}-dy_{23})+x_{0} y_{2}-2 x_{0} y_{3}+x_{1} y_{3}-x_{2} y_{0}+2 x_{3} y_{0}-x_{3} y_{1})^2}+x_{0} y_{2}-2 x_{0} y_{3}+x_{1} y_{3}-x_{2} y_{0}+2 x_{3} y_{0}-x_{3} y_{1}}{2 (-dx_{01} dy_{23}+dy_{01} x_{2}-dy_{01} x_{3})}+\frac{p_{y} (dx_{01}+dx_{23})}{2 (dx_{01} dy_{23}-dy_{01} x_{2}+dy_{01} x_{3})}+\frac{p_{x} (-dy_{01}-dy_{23})}{2 (dx_{01} dy_{23}-dy_{01} x_{2}+dy_{01} x_{3})}\\
 
@@ -42,6 +50,11 @@ u = -\frac{\sqrt{4 (dx_{23} dy_{01}-dx_{01} dy_{23}) (dx_{03} p_{y}-dy_{03} p_{x
 v = \frac{\sqrt{4 (dx_{23} dy_{01}-dx_{01} dy_{23}) (dx_{03} p_{y}-dy_{03} p_{x}-x_{0} y_{3}+x_{3} y_{0})+(p_{y} (dx_{01}+dx_{23})+p_{x} (-dy_{01}-dy_{23})+x_{0} y_{2}-2 x_{0} y_{3}+x_{1} y_{3}-x_{2} y_{0}+2 x_{3} y_{0}-x_{3} y_{1})^2}+2 x_{0} y_{1}-x_{0} y_{2}-2 x_{1} y_{0}+x_{1} y_{3}+x_{2} y_{0}-x_{3} y_{1}}{2 (dx_{03} dy_{12}-dy_{03} x_{1}+dy_{03} x_{2})}+\frac{p_{y} (-dx_{01}-dx_{23})}{2 (dx_{03} dy_{12}-dy_{03} x_{1}+dy_{03} x_{2})}+\frac{p_{x} (dy_{01}+dy_{23})}{2 (dx_{03} dy_{12}-dy_{03} x_{1}+dy_{03} x_{2})}
 
 ```
+
+```math
+\Downarrow 
+```
+
 
 ```math
 \begin{array}{cl}
@@ -94,3 +107,21 @@ v = -\frac{BB-\sqrt{4 CC PD+EE^2}+PP}{2 SS}
 
 ```
 
+```math
+\Downarrow 
+```
+
+```math
+WW =\sqrt{4 \text{CC} \text{PD}+\text{EE}^2}
+```
+
+```math
+\Downarrow 
+```
+
+```math
+\left\{ \begin{array}{cl}
+u = \frac{EE-WW}{2 CC}\\
+v = -\frac{BB+PP-WW}{2 SS}
+\end{array} \right.
+```

@@ -66,8 +66,31 @@ SS = dx_{03} dy_{12}-dx_{12} dy_{03}
 ```
 
 ```math
+\Downarrow 
+```
+
+```math
 \left\{ \begin{array}{cl}
 u = -\frac{\sqrt{(AA+PQ)^2+4 CC PD}-AA+PP}{2 CC}\\
 v = -\frac{-\sqrt{(AA+PQ)^2+4 CC PD}+BB+PP}{2 SS}
 \end{array} \right.
 ```
+
+```math
+\begin{array}{cl}
+PQ = -PP\\
+EE = AA - PP
+\end{array} 
+```
+```math
+\Downarrow 
+```
+```math
+\left\{ \begin{array}{cl}
+u = \frac{EE-\sqrt{4 CC PD+EE^2}}{2 CC} \\
+
+v = -\frac{BB-\sqrt{4 CC PD+EE^2}+PP}{2 SS}
+\end{array} \right.
+
+```
+

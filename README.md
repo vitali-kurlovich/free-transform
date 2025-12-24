@@ -64,3 +64,10 @@ CC = dx_{23} dy_{01}-dx_{01} dy_{23}\\
 SS = dx_{03} dy_{12}-dx_{12} dy_{03}
 \end{array} 
 ```
+
+```math
+\left\{ \begin{array}{cl}
+u = -\frac{\sqrt{(AA+PQ)^2+4 CC PD}-AA+PP}{2 CC}\\
+v = -\frac{-\sqrt{(AA+PQ)^2+4 CC PD}+BB+PP}{2 SS}
+\end{array} \right.
+```
